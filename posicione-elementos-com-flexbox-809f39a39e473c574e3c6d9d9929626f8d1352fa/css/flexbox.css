@@ -1,0 +1,37 @@
+.cabecalhoPrincipal-titulo {
+    display: inline-block;
+}
+
+.cabecalhoPrincipal-nav,
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    height: 250px;
+    flex-flow: column wrap;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 5px 0 0;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
