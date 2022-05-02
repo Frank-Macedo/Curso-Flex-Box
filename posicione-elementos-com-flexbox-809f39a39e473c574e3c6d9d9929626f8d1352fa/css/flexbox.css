@@ -38,11 +38,15 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        flex-grow: calc(1);
+        flex-grow: 10;
     }
     
     .videoSobre-sobre-list {
         flex-grow: calc(1);
+    }
+    
+    .videoSobre-video {
+        flex-grow: 1;
     }
     
     .rodapePrincipal-navMap-list {
@@ -84,6 +88,12 @@
         .conteudoPrincipal-cursos-link {
             width: 100%;
             margin-right: auto;
+        }
+        .videoSobre .container {
+            flex-direction: column;
+        }
+        .videoSobre-video {
+            margin: 0 auto;
         }
         .rodapePrincipal-navMap-list {
             height: auto;
